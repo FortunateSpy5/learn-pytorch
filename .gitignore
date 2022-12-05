@@ -129,9 +129,12 @@ dmypy.json
 .pyre/
 
 # Downloaded datasets
-data/
+**/data/*/
+*.gz
 
 # Log for tensorboard
 runs/
 
 *.pth
+
+.vscode
